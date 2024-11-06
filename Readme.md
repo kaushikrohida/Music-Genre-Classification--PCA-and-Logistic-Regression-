@@ -103,6 +103,9 @@ Visualizations play a key role in understanding the data, the transformation it 
   plt.show()
   ```
 
+<img width="600" alt="Correlation Heatmap" src="Graphical Representations/Correlation Heatmap.png">
+
+
 - **PCA Explained Variance Plot**: Visualizes the amount of variance explained by each principal component.
   ```python
   plt.figure(figsize=(8, 5))
@@ -113,6 +116,9 @@ Visualizations play a key role in understanding the data, the transformation it 
   plt.show()
   ```
 
+<img width="600" alt="PCA Explained Variance Plot" src="Graphical Representations/PCA Explained Variance Plot.png">
+
+
 - **Genre Distribution**: Displays the distribution of different music genres in the dataset to understand class imbalance.
   ```python
   plt.figure(figsize=(8, 5))
@@ -122,6 +128,10 @@ Visualizations play a key role in understanding the data, the transformation it 
   plt.ylabel('Count')
   plt.show()
   ```
+
+
+<img width="600" alt="General Distribution" src="Graphical Representations/General Distribution.png">
+
 
 - **Confusion Matrix**: A confusion matrix to visualize the performance of the logistic regression model on the test data.
   ```python
@@ -143,31 +153,6 @@ The project uses the following libraries:
 - **NumPy**: For numerical operations.
 - **Scikit-learn**: For data preprocessing, PCA, model training, and evaluation.
 - **Matplotlib & Seaborn**: For data visualization.
-
-Make sure to install these dependencies before running the notebook:
-
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn
-```
-
-## How to Run the Project
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/music-genre-classification.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd music-genre-classification
-   ```
-
-3. Open the Jupyter Notebook:
-   ```bash
-   jupyter notebook "Music Genre Classification - PCA and Logistic Regression.ipynb"
-   ```
-
-4. Follow along with the notebook to explore the data, preprocess it, train the model, and evaluate the results.
 
 ## Future Improvements
 
